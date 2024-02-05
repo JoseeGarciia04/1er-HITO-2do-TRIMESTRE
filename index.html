@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <title>HITO_INDIVIDUAL_2</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-bottom/">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/programacion.png">
+</head>
+<body>
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>ProgramaCampus</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#JSON">
+                              <i class="fa-brands fa-js"></i>
+                                <span>JSON</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#XML">
+                              <i class="fa-solid fa-xmark"></i>
+                                <span>XML</span>
+                            </a>
+                        </li>
+                        <li>
+                          <a href="#Contacto">
+                            <i class="fa-solid fa-address-book"></i>
+                              <span>Contacto</span>
+                          </a>
+                      </li>
+                    </ul>
+                </nav>
+                <div class="sidebar">
+                    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+                    <div class="sidebar-content">
+                        <h2>Categorías</h2>
+                        <ul>
+                            <li><a href="#JSON">Categoría JSON</a></li>
+                            <li><a href="#XML">Categoría XML</a></li>
+                            <li><a href="#HTML">Categoría HTML</a></li>
+                        </ul>
+                
+                        <h2>Últimos Posts</h2>
+                        <ul>
+                            <li><a href="#BLOG">Post 1 01-01-2024</a></li>
+                            <li><a href="#BLOG">Post 2 06-01-2024</a></li>
+                            <li><a href="#BLOG">Post 3 21-01-2024</a></li>
+                        </ul>
+                
+                        <h2>Redes Sociales</h2>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>
+                            <a href="https://twitter.com/"><img src="img/gorjeo.png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                
+        </header>
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{"wrapAround":true,"pageDots":false, "autoPlay":true}'>
+                <div class="gallery-cell">
+                    <img src="img/archivos-json.webp" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/What-Is-the-Difference-Between-JSON-and-XML- (1).png" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/duda-resuelta-existen-tantos-lenguajes-programacion-3079266.webp" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/descarga.png" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <h2>
+                  "Explora el fascinante mundo del código en nuestro Programa Campus: donde la innovación se encuentra con la programación, y cada línea de código es una oportunidad para construir un futuro digital extraordinario."</h2>
+                <p>¡Reserva ya tu plaza!</p>
+                <button>Más</button>
+                <a href="https://campusfp.es/"></a>
+            </div>
+        </div>
+    </section>
+    <section id="XML">
+        <h2>XML</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/html-5.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>HISTORIA</h3>
+                    <p>El XML proviene de un lenguaje que inventó IBM allá por los años 70. El lenguaje de IBM se llama GML (General Markup Language) y surgió por la necesidad que tenían en la empresa de almacenar grandes cantidades de información de temas diversos.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/xml.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>SINTAXIS</h3>
+                    <p> 1. Todos los elementos XML deben tener una etiqueta de cierre.
+                        2. Las etiquetas XML son sensibles a mayúsculas y minúsculas.
+                        3. Todos los elementos XML deben estar debidamente anidados.
+                        4. Todos los documentos XML debe tener un elemento raíz.
+                        5. Los valores de atributo siempre deben estar entre comillas.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/descarga.jfif" alt="">
+                </div>
+                <div class="info">
+                    <h3>USO EMPRESARIAL</h3>
+                    <p>Publicación web: XML permite crear páginas interactivas, permite al cliente personalizar dichas páginas.
+                      Búsqueda web y automatización de tareas web: XML define el tipo de información contenida en un documento.
+                      
+                      Aplicaciones generales: XML proporciona un método estándar para acceder a la información.
+                      Aplicaciones e-business: las implementaciones XML hacen que el intercambio electrónico de datos (EDI) sea más accesible para el intercambio de información.
+                      Aplicaciones de metadatos: XML facilita la expresión de metadatos en un formato portátil y reutilizable.
+                      
+                      </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="JSON">
+        <h2>JSON</h2>
+        <div class="fila">
+            <div class="item">
+                <h3>HISTORIA</h3>
+                <p>Fue creado a principios de la década de 2000 por Douglas Crockford como una forma de mejorar los formatos de almacenamiento de datos existentes, como XML y CSV. Fue diseñado para ser más legible que otros formatos, facilitando a los desarrolladores la lectura y escritura de datos.</p>
+                JSON se utiliza a menudo como alternativa a otras bases de datos y formatos de almacenamiento de datos, como XML o CSV. Es especialmente popular en aplicaciones web, donde se puede convertir fácilmente desde y hacia otros formatos como HTML y JavaScript. Además, como la sintaxis de JSON es sencilla y fácil de entender, muchos desarrolladores lo encuentran mucho más fácil de usar que otros formatos de datos.
+              </div>
+            <div class="item">
+                <h3>SINTAXIS</h3>
+                <p>1.Matrices (arrays): Las matrices son listas de valores separados por comas. Las matrices se escriben entre corchetes
+                  2. Objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y el valor están separados por dos puntos : y las parejas están separadas por comas. Los objetos se escriben entre llaves { } y los nombres de las parejas se escriben siempre entre comillas dobles.  
+                  3. Un documento JSON está formado por un único elemento (un objeto o una matriz).
+                  4. Tanto en los objetos como en las matrices, el último elemento no puede ir seguido de una coma.
+                  5. Los espacios en blanco y los saltos de línea no son significativos, es decir, puede haber cualquier número de espacios en blanco o saltos de línea separando cualquier elemento o símbolo del documento
+                </p>
+            </div>
+            <div class="item">
+                <h3>USO EMPRESARIAL</h3>
+                <p>Hay muchas empresas que utilizan JSON, entre ellas Google, Facebook y Twitter, aunque hay muchas más. Esto se debe, sobre todo, a sus ventajas, siendo la principal su simplicidad. Además, también se ha podido comprobar que el software que utiliza JSON tiene un mayor rendimiento, ya que la información se procesa de una forma mucho más rápida. A todo esto hay que sumarle que es muy versátil y accesible, tanto para humanos como para máquinas.
+
+                  Esto significa que utilizar JSON en una empresa hace que la página web dé una mejor respuesta, ya que el maneo de datos será mucho más fluido y sencillo. Cuanto más rápida sea la carga y más fluida sea la navegación, mejor será la experiencia de usuario, lo que le llevará a tener mejor reputación dentro de los motores de búsqueda.</p>
+            </div>
+        
+    </section>
+</body>
+</html>
+
+<section id="BLOG">
+    <h2>BLOG</h2>
+    <div class="fila">
+        <div class="item">
+            <h3>Post 1 01-01-2024</h3>
+            <p>Bienvenidos a Programa Campus, tu fuente confiable de conocimiento. En esta ocasión, exploraremos el fascinante mundo de XML y JSON. ¿Qué son? ¿Cómo se utilizan? ¿Cuáles son sus aplicaciones en el desarrollo web
+                XML (Extensible Markup Language) y JSON (JavaScript Object Notation) son formatos de intercambio de datos ampliamente utilizados en el desarrollo web. XML es conocido por su estructura jerárquica y legible por humanos, mientras que JSON es más ligero y fácil de leer para las máquinas.</p>
+        </div>
+        <div class="item">
+            <h3>Post 2 06-01-2024</h3>
+            <p>Nuestros cursos cubren una amplia gama de temas, desde HTML y CSS hasta JavaScript, frameworks populares y técnicas avanzadas. Obtén habilidades prácticas, realiza proyectos reales y construye un portafolio impresionante que destaque tu experiencia.
+
+                En Programa Campus, la educación de calidad es accesible para todos. Únete a nuestra comunidad, adquiere nuevos conocimientos y abre las puertas a emocionantes oportunidades en el mundo del desarrollo web. ¡Descubre tus posibilidades hoy!</p>
+        </div>
+        <div class="item">
+            <h3>Post 3 21-01-2024</h3>
+            <p>¿Qué está sucediendo en el ámbito de la programación? ¿Cuáles son las últimas actualizaciones en lenguajes de programación populares? ¿Qué avances tecnológicos están dando forma al futuro de la industria?
+
+                Nuestro compromiso es proporcionarte información relevante y actualizada. Sigue visitando Programa Campus para obtener noticias frescas, análisis profundos y entrevistas con expertos. Estamos aquí para mantenerte inspirado y conectado con las novedades que están transformando el panorama tecnológico.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- SECCION DE CSS -->
+    <section id="Contacto">
+      <div class="fila">
+          <div class="col">
+              <h1>ProgramaCampus</h1>
+          </div>
+          <div class="col">
+              <h3>Menú</h3>
+              <a href="#inicio">Home</a>
+              <a href="#JSON">JSON</a>
+              <a href="#XML">XML</a>
+              <a href="#Contacto">Contacto</a>
+          </div>
+          <div class="col">
+              <h3>Siguenos en redes sociales</h3>
+              <div class="media">
+                  <i class="fa-brands fa-twitter"></i> <a href="https://x.com/Campus_FP?t=RMCKXVzsbgXh7Uvhy2Jzdw&s=09" target="_blank">Twitter</a>
+              </div>
+              <div class="media">
+                  <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/campusfp_/" target="_blank">Instagram</a>
+              </div>
+              <div class="media">
+                  <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/school/campus-fp/" target="_blank">Linkedin</a>
+              </div>
+          </div>
+          <div class="col">
+              <h3>Contacto</h3>
+              <input type="text" placeholder="Tu correo">
+              <input type="submit" class="enviar">
+          </div>
+      </div>
+      <div id="wrapper">
+          <h2>Reserva tu plaza ahora!</h2>
+          <form action="https://formsubmit.co/joseantonio.garcia@campusfp.es" method="POST">
+             
+              <label for="Nombre">Nombre</label>
+              <input type="text" name="name">
+
+              <label for="email">Correo electronico</label>
+              <input type="email" name="email">
+
+              <label for="Nombre">Asunto</label>
+              <input type="text" name="subject">
+
+              <label for="Nombre">Comentarios</label>
+              <textarea name="comments" cols="15" rows="5"></textarea>
+
+              <input type="submit" value="enviar">
+          </form>
+      </div>
+      </div>
+    </section>
+    
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
